@@ -1,3 +1,1 @@
-window.addEventListener('keydown', e => {
-	if (e.key == ' ') clicksCountSpan.innerText++
-})
+onkeydown = e => e.key == ' ' ? clicksCountSpan.innerText++ : 0
